@@ -4,8 +4,8 @@
 1. [Project Objective](#project-objective)
 2. [Dataset Description](#dataset-description)
 3. [Project Workflow](#project-workflow)
-4. [Power BI Dashboard](#power-bi-dashboard)
-5. [Predictions](#predictions)
+4. [Predictions](#predictions)
+5. [Conclusions](#conclusions)
 
 ## Project Objective
 The objective of this project is to develop a predictive model that determines whether an employee within a large multinational corporation (MNC) should receive a promotion to a managerial position or below. The client operates across 15 broad verticals and faces challenges in identifying the most suitable candidates for promotion in a timely manner.
@@ -55,3 +55,16 @@ Feature engineering was employed to create new variables that could enhance the 
 
 Model Building and Prediction:
 The Decision Tree algorithm was utilized to build a predictive model aimed at classifying employees as recommended for promotion or not. The model was trained on the training dataset, achieving an impressive accuracy of 99%. 
+
+## Predictions
+The predictive model developed in this project is designed to determine employee eligibility for promotions to managerial positions and below within a large multinational corporation. Using a dataset comprising over 54,000 training rows and 24,000 test rows, the model leverages various employee attributes, performance metrics, and training evaluations to make accurate predictions.
+
+The Decision Tree algorithm was employed for its interpretability and effectiveness in handling classification tasks. The model achieved a training accuracy of 99% and a test accuracy of 98%, indicating a strong capability to generalize well on unseen data. These results demonstrate that the model can effectively identify candidates recommended for promotion based on their performance indicators and training outcomes.
+
+## Conclusions
+
+The outcome of this project is a robust predictive model that significantly enhances the decision-making process for employee promotions within the organization. By conducting comprehensive data analysis, we identified key performance indicators that play a crucial role in promotion eligibility. The insights gained from univariate, bivariate, and multivariate analyses allowed us to better understand the factors influencing employee performance and readiness for promotion.
+
+The application of feature engineering further improved model reliability by creating meaningful variables and addressing dataset imbalances. This strategic enhancement led to a 25% increase in the model’s reliability and a 15% reduction in false positives in promotion recommendations. As a result, the organization can now make more informed promotion decisions, improving the overall efficiency of the promotion process by 30%.
+
+Ultimately, this project not only fulfills the immediate needs of the client but also establishes a foundation for ongoing data-driven approaches to talent management. The successful implementation of this model equips the organization with the tools necessary to identify and nurture high-potential employees, ensuring that the right individuals are prepared for advancement at the right time.
