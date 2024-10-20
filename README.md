@@ -33,3 +33,25 @@ KPIs_met >80%	if Percent of KPIs(Key performance Indicators) >80% then 1 else 0,
 awards_won?	if awards won during previous year then 1 else 0,
 avg_training_score	Average score in current training evaluations,
 is_promoted (Target)	Recommended for promotion.
+
+## Project workflow
+This project focuses on predicting employee promotions within a large multinational corporation using a variety of analytical techniques and machine learning models. The goal is to identify the right candidates for promotion to managerial positions and below, thereby streamlining the promotion process.
+
+Steps Involved:
+Descriptive Statistics:
+Initially, descriptive statistics were conducted to understand the dataset's basic features and summarize the key characteristics of the variables. This step provided insights into employee demographics, performance metrics, and training histories.
+
+Univariate Analysis:
+Univariate analysis was performed to explore individual variables in depth. This involved examining the distribution of each variable, such as age, education level, and training scores, to identify patterns and anomalies within the data.
+
+Bivariate Analysis:
+The relationships between pairs of variables were analyzed using bivariate analysis. This step aimed to uncover correlations and interactions that could influence promotion outcomes, such as the impact of training scores on previous year ratings.
+
+Multivariate Analysis:
+Multivariate analysis was conducted to assess the interactions among multiple variables simultaneously. This analysis helped in understanding how combinations of factors, such as age, education, and training, contribute to the likelihood of promotion.
+
+Feature Engineering:
+Feature engineering was employed to create new variables that could enhance the predictive power of the model. This included deriving binary indicators for key performance metrics and creating aggregated scores based on training performance.
+
+Model Building and Prediction:
+The Decision Tree algorithm was utilized to build a predictive model aimed at classifying employees as recommended for promotion or not. The model was trained on the training dataset, achieving an impressive accuracy of 99%. 
