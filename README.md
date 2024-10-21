@@ -52,6 +52,7 @@ Multivariate analysis was conducted to assess the interactions among multiple va
 
 Feature Engineering:
 Feature engineering was employed to create new variables that could enhance the predictive power of the model. This included deriving binary indicators for key performance metrics and creating aggregated scores based on training performance.
+![image](https://github.com/Badal-28/Employee-Promotion-Prediction/blob/main/Correlationheatmap.png)
 
 Model Building and Prediction:
 The Decision Tree algorithm was utilized to build a predictive model aimed at classifying employees as recommended for promotion or not. The model was trained on the training dataset, achieving an impressive accuracy of 99%. 
