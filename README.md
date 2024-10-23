@@ -60,7 +60,7 @@ The Decision Tree algorithm was utilized to build a predictive model aimed at cl
 ## Predictions
 The predictive model developed in this project is designed to determine employee eligibility for promotions to managerial positions and below within a large multinational corporation. Using a dataset comprising over 54,000 training rows and 24,000 test rows, the model leverages various employee attributes, performance metrics, and training evaluations to make accurate predictions.
 
-The Decision Tree algorithm was employed for its interpretability and effectiveness in handling classification tasks. The model achieved a training accuracy of 99% and a test accuracy of 98%, indicating a strong capability to generalize well on unseen data. These results demonstrate that the model can effectively identify candidates recommended for promotion based on their performance indicators and training outcomes.
+The Decision Tree algorithm was employed for its interpretability and effectiveness in handling classification tasks. The model achieved a  accuracy of 98%, indicating a strong capability to generalize well on unseen data. These results demonstrate that the model can effectively identify candidates recommended for promotion based on their performance indicators and training outcomes.
 
 ## Conclusions
 
